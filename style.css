@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+#word {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+    font-size: 32px;
+}
+
+#keyword {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 16px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.letter-button {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+}
+
+button:hover {
+    background-color: #cccccc;
+}
